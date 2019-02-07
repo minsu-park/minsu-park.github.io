@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Minsu Park</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		p { color: #fff; font-family: Tahoma; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 370px; padding: 110px 70px 0 150px; margin: -35px 50px 0 auto !important; }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!--swap out for information about yourself-->
+<div id="about">
+	<p><small>I am a PhD student working with <a href="https://sociology.cornell.edu/michael-macy" target="_blank">Michael</a> and <a href="https://tech.cornell.edu/people/mor-naaman/" target="_blank">Mor</a> at <a href="http://infosci.cornell.edu/" target="_blank">Cornell InfoSci</a>.</small></p>
+
+	<p><small>My main research interest is how to measure and explain collective behaviors within a group or society. Among broad interests, the core areas that I am currently focusing on are (1) the role of social media &mdash;defined broadly as technologies that facilitate social behavior among people&mdash; in localized social contexts and (2) the ways that people use culture to make connections with one another and the relationships between one's cultural tastes, their social structure, and technological meeting points of those.</small></p>
+
+	<p><small>I am currently conducting research using online behavioral logs (inclduing longitudinal and cross-sectional data), virtual lab experiments, and sensing technologies.</small></p>
+
+	<p><small><a href="CV_MinsuPark.pdf" target="_blank">cv</a>
+	<br><a href="https://scholar.google.com/citations?user=HItEGaAAAAAJ&hl=en" target="_blank">google scholar</a>
+	<br><a href="mailto:mp867@cornell.edu" target="_blank">email</a></small></p>
+	
+    <p><br></p>
+    
+	<p><small>This page is adapted from <a href="https://github.com/weightshift/The-Personal-Page" target="_blank">naz hamid's repo</a>.</small></p>
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+<!--swap out for your google analytics information or remove this block-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-85444135-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>	
+</html>
